@@ -1,0 +1,33 @@
+state,crop,year,field,issue,old_value
+FCT Abuja,Cassava,2014,state,Inconsistent state label standardized to 'Abuja FCT',FCT Abuja
+FCT Abuja,Cassava,2015,state,Inconsistent state label standardized to 'Abuja FCT',FCT Abuja
+FCT Abuja,Cassava,2016,state,Inconsistent state label standardized to 'Abuja FCT',FCT Abuja
+FCT Abuja,Cassava,2018,state,Inconsistent state label standardized to 'Abuja FCT',FCT Abuja
+FCT Abuja,Cassava,2019,state,Inconsistent state label standardized to 'Abuja FCT',FCT Abuja
+FCT Abuja,Cassava,2020,state,Inconsistent state label standardized to 'Abuja FCT',FCT Abuja
+FCT Abuja,Cassava,2021,state,Inconsistent state label standardized to 'Abuja FCT',FCT Abuja
+FCT Abuja,Cassava,2022,state,Inconsistent state label standardized to 'Abuja FCT',FCT Abuja
+FCT Abuja,Cassava,2023,state,Inconsistent state label standardized to 'Abuja FCT',FCT Abuja
+FCT Abuja,Maize,2014,state,Inconsistent state label standardized to 'Abuja FCT',FCT Abuja
+FCT Abuja,Maize,2015,state,Inconsistent state label standardized to 'Abuja FCT',FCT Abuja
+FCT Abuja,Maize,2017,state,Inconsistent state label standardized to 'Abuja FCT',FCT Abuja
+FCT Abuja,Maize,2020,state,Inconsistent state label standardized to 'Abuja FCT',FCT Abuja
+FCT Abuja,Maize,2023,state,Inconsistent state label standardized to 'Abuja FCT',FCT Abuja
+FCT Abuja,Maize,2024,state,Inconsistent state label standardized to 'Abuja FCT',FCT Abuja
+Ekiti,Cassava,2015,row,Exact duplicate row removed,
+Cross River,Cassava,2017,production_tonnes,Missing production_tonnes recalculated as area_harvested_ha x yield_t_per_ha,
+Enugu,Cassava,2016,production_tonnes,Missing production_tonnes recalculated as area_harvested_ha x yield_t_per_ha,
+Abuja FCT,Cassava,2021,production_tonnes,Missing production_tonnes recalculated as area_harvested_ha x yield_t_per_ha,
+Kwara,Cassava,2019,production_tonnes,Missing production_tonnes recalculated as area_harvested_ha x yield_t_per_ha,
+Cross River,Maize,2014,production_tonnes,Missing production_tonnes recalculated as area_harvested_ha x yield_t_per_ha,
+Kebbi,Maize,2016,production_tonnes,Missing production_tonnes recalculated as area_harvested_ha x yield_t_per_ha,
+Plateau,Maize,2019,production_tonnes,Missing production_tonnes recalculated as area_harvested_ha x yield_t_per_ha,
+Borno,Rice,2024,production_tonnes,Missing production_tonnes recalculated as area_harvested_ha x yield_t_per_ha,
+Kebbi,Rice,2015,production_tonnes,Missing production_tonnes recalculated as area_harvested_ha x yield_t_per_ha,
+Cross River,Yam,2021,production_tonnes,Missing production_tonnes recalculated as area_harvested_ha x yield_t_per_ha,
+Gombe,Yam,2017,production_tonnes,Missing production_tonnes recalculated as area_harvested_ha x yield_t_per_ha,
+Gombe,Yam,2024,production_tonnes,Missing production_tonnes recalculated as area_harvested_ha x yield_t_per_ha,
+Kwara,Yam,2019,production_tonnes,Missing production_tonnes recalculated as area_harvested_ha x yield_t_per_ha,
+Niger,Yam,2020,production_tonnes,Missing production_tonnes recalculated as area_harvested_ha x yield_t_per_ha,
+Oyo,Yam,2021,production_tonnes,Missing production_tonnes recalculated as area_harvested_ha x yield_t_per_ha,
+Kwara,Yam,2014,production_tonnes,production_tonnes deviated >20% from area x yield (data entry error) - recalculated,83457869.0
