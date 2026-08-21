@@ -7,7 +7,7 @@
 
 - [x] Dashboard / Data Visualization
 - [x] Data Cleaning / Wrangling
-- [ ] Exploratory Data Analysis (EDA)
+- [x] Exploratory Data Analysis (EDA)
 - [ ] SQL Analysis / Querying
 - [ ] Data Pipeline / ETL
 - [ ] Predictive Modelling / Machine Learning
@@ -90,15 +90,23 @@
 ## 4. Repository Structure
 
 ```
-agri-output-project/
+agricultural-output-by-state/
 │
 ├── data/
-│   ├── raw/                  # Original, unmodified source data - never edited
-│   └── clean/                # Cleaned dataset used to build the Power BI model
+│   ├── external              # Dataset Gather from other multiple source- synthetic datasets
+│   ├── processed/            # Cleaned dataset used to build the Power BI model
+│   └── raw/                  # Original, unmodified source data - never edited 
+│
+├── docs/                     # Data dictionary and data quality log
+│
+├── notebooks/                # Python analysis notebook and Documentation 
+│
+├── power bi/                 # Power BI Dashboard File
+│
+├── report/                   # project end to end report documentation
 │
 ├── scripts/                  # Python cleaning script (01_clean_data.py)
 │
-├── docs/                     # Data dictionary and data quality log
 │
 ├── visuals/                  # Dashboard page screenshots
 │
@@ -124,7 +132,7 @@ agri-output-project/
 1. **Source:** `raw_crop_output_nigeria_2014_2024.csv` — state, crop, year, area harvested (ha), yield (t/ha), and production (tonnes).
 2. **Ingestion:** Loaded into Python using pandas (1,145 raw rows).
 3. **Cleaning:** Standardized inconsistent state naming (`FCT Abuja` and `Abuja FCT` merged into a single label), removed one exact duplicate row, and recalculated 15 missing and 1 outlier `production_tonnes` value as `area_harvested_ha × yield_t_per_ha`. Every change is logged in `docs/data_quality_log.csv`.
-4. **Transformation:** Built two dimension tables in Power Query — `Dim_State` (adds a Zone/geopolitical-region mapping) and `Dim_Year` (2014–2024) — and related them to the fact table in a star schema.
+4. **Transformation:** Built two dimension tables in Power Query — `Dim_State` (adds a Zone/geopolitical-region mapping) and `Dim_Year` (2014–2024) and related them to the fact table in a star schema.
 5. **Analysis:** DAX measures for total production, weighted average yield, year-over-year growth, CAGR, and share of national production.
 6. **Output:** A three-page interactive Power BI dashboard (National Overview, Trends Over Time, State Comparison/Planning View).
 
